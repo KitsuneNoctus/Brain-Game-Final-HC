@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oyK-BF-8cA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -27,25 +27,101 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Easy"/>
+                                <connections>
+                                    <segue destination="ffV-W2-aI2" kind="show" id="S63-4z-Yif"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEr-lF-f31">
                                 <rect key="frame" x="143" y="424" width="129" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Moderate"/>
+                                <connections>
+                                    <segue destination="7a8-vb-eFz" kind="show" id="sk0-r7-pwU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZm-JD-4tw">
                                 <rect key="frame" x="183" y="500" width="48" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Hard"/>
+                                <connections>
+                                    <segue destination="d1Q-Cb-BvH" kind="show" id="OVt-5J-OYw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="HxT-Xv-Ctq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962.31884057971024" y="375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="n1c-89-5e5">
+            <objects>
+                <viewController id="ffV-W2-aI2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tb2-Fc-8gI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pXY-Bn-dnI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VKW-kj-vEx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pTO-sj-7Gq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1822" y="-342"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VXn-zf-rqe">
+            <objects>
+                <viewController id="7a8-vb-eFz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gf4-j6-Ewe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="D41-B6-375"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GgI-h8-tQN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYd-le-5yX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1822" y="375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zs4-if-pvp">
+            <objects>
+                <viewController id="d1Q-Cb-BvH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uqR-0J-wE2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4Kh-Ut-0L5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SK8-q1-32k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jUC-s4-jrX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1822" y="1124"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RaY-Z6-0bg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oyK-BF-8cA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yi9-jr-twS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01J-lp-oVM" kind="relationship" relationship="rootViewController" id="NpL-Od-icI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Spk-4o-ppL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
