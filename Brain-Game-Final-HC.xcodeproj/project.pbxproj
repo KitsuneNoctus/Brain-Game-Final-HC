@@ -13,7 +13,6 @@
 		3F92041623978CCB000019FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F92041423978CCB000019FF /* Main.storyboard */; };
 		3F92041823978CCE000019FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F92041723978CCE000019FF /* Assets.xcassets */; };
 		3F92041B23978CCE000019FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F92041923978CCE000019FF /* LaunchScreen.storyboard */; };
-		3FB7FD0623A02F8400707D08 /* noun_Equal_1886096.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7FD0523A02F8400707D08 /* noun_Equal_1886096.png */; };
 		3FB7FD4423A0336800707D08 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7FD0923A0336800707D08 /* iTunesArtwork@1x.png */; };
 		3FB7FD4523A0336800707D08 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7FD0B23A0336800707D08 /* Icon-App-76x76@2x.png */; };
 		3FB7FD4623A0336800707D08 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7FD0C23A0336800707D08 /* Icon-App-29x29@1x.png */; };
@@ -113,7 +112,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F92040B23978CCB000019FF /* Brain-Game-Final-HC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain-Game-Final-HC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F92040B23978CCB000019FF /* Brain Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F92040E23978CCB000019FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F92041023978CCB000019FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F92041223978CCB000019FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +120,6 @@
 		3F92041723978CCE000019FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F92041A23978CCE000019FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F92041C23978CCE000019FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FB7FD0523A02F8400707D08 /* noun_Equal_1886096.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_Equal_1886096.png; sourceTree = "<group>"; };
 		3FB7FD0923A0336800707D08 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
 		3FB7FD0B23A0336800707D08 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
 		3FB7FD0C23A0336800707D08 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
@@ -242,7 +240,7 @@
 		3F92040C23978CCB000019FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F92040B23978CCB000019FF /* Brain-Game-Final-HC.app */,
+				3F92040B23978CCB000019FF /* Brain Game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,7 +254,6 @@
 				3F92041223978CCB000019FF /* ViewController.swift */,
 				3F92041423978CCB000019FF /* Main.storyboard */,
 				3F92041723978CCE000019FF /* Assets.xcassets */,
-				3FB7FD0523A02F8400707D08 /* noun_Equal_1886096.png */,
 				3F92041923978CCE000019FF /* LaunchScreen.storyboard */,
 				3F92041C23978CCE000019FF /* Info.plist */,
 				3FB7FD7423A0374A00707D08 /* brain */,
@@ -591,7 +588,7 @@
 			);
 			name = "Brain-Game-Final-HC";
 			productName = "Brain-Game-Final-HC";
-			productReference = 3F92040B23978CCB000019FF /* Brain-Game-Final-HC.app */;
+			productReference = 3F92040B23978CCB000019FF /* Brain Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -671,7 +668,6 @@
 				3FB7FD4F23A0336800707D08 /* Icon-App-40x40@2x.png in Resources */,
 				3FB7FD6423A0336800707D08 /* icon-messages-transcript-32x24@2x.png in Resources */,
 				3FB7FD5423A0336800707D08 /* Icon-App-29x29@2x.png in Resources */,
-				3FB7FD0623A02F8400707D08 /* noun_Equal_1886096.png in Resources */,
 				3FB7FDCD23A0374A00707D08 /* icon-messages-app-iPadAir-67x50@2x.png in Resources */,
 				3FB7FDD023A0374A00707D08 /* icon-messages-app-27x20@1x.png in Resources */,
 				3FB7FD4823A0336800707D08 /* Icon-App-20x20@1x.png in Resources */,
@@ -895,7 +891,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.Brain-Game-Final-HC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Brain Game";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -912,7 +908,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.Brain-Game-Final-HC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Brain Game";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

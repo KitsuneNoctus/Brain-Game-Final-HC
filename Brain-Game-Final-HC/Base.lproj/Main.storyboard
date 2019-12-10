@@ -38,6 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Hard"/>
                                 <connections>
+                                    <action selector="hardButton:" destination="MF5-Lv-mUF" eventType="touchUpInside" id="5Ib-O8-sll"/>
                                     <segue destination="BMT-fF-9bH" kind="show" identifier="hardButton" id="RWf-H1-Aqu"/>
                                 </connections>
                             </button>
@@ -56,7 +57,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Moderate"/>
                                 <connections>
-                                    <segue destination="BMT-fF-9bH" kind="show" identifier="moderateButton" id="NnS-Wc-I50"/>
+                                    <action selector="moderateButton:" destination="MF5-Lv-mUF" eventType="touchUpInside" id="jKL-KE-2Xa"/>
+                                    <segue destination="BMT-fF-9bH" kind="show" identifier="easyButton" id="NnS-Wc-I50"/>
                                 </connections>
                             </button>
                         </subviews>

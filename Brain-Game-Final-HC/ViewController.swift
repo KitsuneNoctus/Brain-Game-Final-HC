@@ -19,6 +19,10 @@ class ViewController: UIViewController {
     @IBAction func easyButton(_ sender: Any) {
     }
 
-
+    @IBAction func moderateButton(_ sender: Any) {
+    }
+    @IBAction func hardButton(_ sender: Any) {
+    }
+    
 }
 
