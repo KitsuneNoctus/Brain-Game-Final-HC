@@ -13,6 +13,7 @@
 		3F92041623978CCB000019FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F92041423978CCB000019FF /* Main.storyboard */; };
 		3F92041823978CCE000019FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F92041723978CCE000019FF /* Assets.xcassets */; };
 		3F92041B23978CCE000019FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F92041923978CCE000019FF /* LaunchScreen.storyboard */; };
+		3FB7FD0623A02F8400707D08 /* noun_Equal_1886096.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7FD0523A02F8400707D08 /* noun_Equal_1886096.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3F92041723978CCE000019FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F92041A23978CCE000019FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F92041C23978CCE000019FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB7FD0523A02F8400707D08 /* noun_Equal_1886096.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_Equal_1886096.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		3F92040D23978CCB000019FF /* Brain-Game-Final-HC */ = {
 			isa = PBXGroup;
 			children = (
+				3FB7FD0423A02F6400707D08 /* myAssets */,
 				3F92040E23978CCB000019FF /* AppDelegate.swift */,
 				3F92041023978CCB000019FF /* SceneDelegate.swift */,
 				3F92041223978CCB000019FF /* ViewController.swift */,
 				3F92041423978CCB000019FF /* Main.storyboard */,
 				3F92041723978CCE000019FF /* Assets.xcassets */,
+				3FB7FD0523A02F8400707D08 /* noun_Equal_1886096.png */,
 				3F92041923978CCE000019FF /* LaunchScreen.storyboard */,
 				3F92041C23978CCE000019FF /* Info.plist */,
 			);
 			path = "Brain-Game-Final-HC";
+			sourceTree = "<group>";
+		};
+		3FB7FD0423A02F6400707D08 /* myAssets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = myAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F92041B23978CCE000019FF /* LaunchScreen.storyboard in Resources */,
+				3FB7FD0623A02F8400707D08 /* noun_Equal_1886096.png in Resources */,
 				3F92041823978CCE000019FF /* Assets.xcassets in Resources */,
 				3F92041623978CCB000019FF /* Main.storyboard in Resources */,
 			);
