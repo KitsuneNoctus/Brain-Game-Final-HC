@@ -28,16 +28,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Easy"/>
                                 <connections>
-                                    <segue destination="BMT-fF-9bH" kind="show" identifier="easyButton" id="C5L-aw-EaX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x81-wD-K1K">
-                                <rect key="frame" x="143" y="424" width="129" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Moderate"/>
-                                <connections>
-                                    <segue destination="BMT-fF-9bH" kind="show" identifier="moderateButton" id="NnS-Wc-I50"/>
+                                    <action selector="easyButton:" destination="MF5-Lv-mUF" eventType="touchUpInside" id="pxX-v9-wlS"/>
+                                    <segue destination="BMT-fF-9bH" kind="show" identifier="moderateButton" id="C5L-aw-EaX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFH-2f-KJf">
@@ -49,6 +41,24 @@
                                     <segue destination="BMT-fF-9bH" kind="show" identifier="hardButton" id="RWf-H1-Aqu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ee4-8N-Njw">
+                                <rect key="frame" x="126" y="362" width="163" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Easy"/>
+                                <connections>
+                                    <action selector="easyButton:" destination="MF5-Lv-mUF" eventType="touchUpInside" id="eF0-GQ-iyb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x81-wD-K1K">
+                                <rect key="frame" x="143" y="424" width="129" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Moderate"/>
+                                <connections>
+                                    <segue destination="BMT-fF-9bH" kind="show" identifier="moderateButton" id="NnS-Wc-I50"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="q99-dZ-5g0"/>
@@ -56,6 +66,7 @@
                     <navigationItem key="navigationItem" id="bVZ-bm-Glw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sq0-Fm-Qp7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="MF5-Lv-mUF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="962.31884057971024" y="375"/>
         </scene>
